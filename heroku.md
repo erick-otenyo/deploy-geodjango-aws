@@ -135,7 +135,7 @@ Now we need to tell heroku to use the heroku-geo-buildpack, and ofcourse the the
     heroku addons:create heroku-postgresql:hobby-dev
     ```
 
-4. Configure Live Database on `settings.py`:
+4. Configure Live Database on `settings.py` Note we are using the postgis DATABASE.ENGINE:
 
     ```
     # keep this
