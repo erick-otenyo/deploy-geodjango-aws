@@ -22,12 +22,12 @@ An installation guide for getting GeoDjango setup on Heroku
 
 5. Install Python
 
-### Start GeoDjango Project Locally. Ensure you have the following done:
+### On your local geodjango project,ensure you have the following done:
     cd ~/path/to/your/project
     pip install gunicorn dj-database-url psycopg2
     pip freeze  > requirements.txt
 
-### Setup your GeoDjango Project on Git
+### Setup your Geodjango Project on Git
 1. Initialize Git in the root of your Django Project (where `manage.py` is)
     ```
     cd /path/to/your/project
