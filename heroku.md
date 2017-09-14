@@ -20,12 +20,7 @@ An installation guide for getting GeoDjango setup on Heroku
     Logged in as <your-heroku-account-email>
     ```
 
-5. Install Python:
-    [Python.org](http://www.kirr.co/52lk1y/)
-    or
-    Mac watch [here](http://www.kirr.co/a9u645/)
-    Linux watch [here](http://www.kirr.co/yoywdh/)
-    Windows watch [here](http://www.kirr.co/xeaocj/)
+5. Install Python
 
 ### Start GeoDjango Project Locally. Ensure you have the following done:
     cd ~/path/to/your/project
