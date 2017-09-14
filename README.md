@@ -1,5 +1,5 @@
-# deploy-geodjango-aws
-Guide on deploying Geodjango on AWS's Elastic Bean
+# deploy-geospatial
+Guide on deploying Geodjango/Geospatial applications on different platforms
 
 
 # Coming Soon
