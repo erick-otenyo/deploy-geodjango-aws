@@ -103,7 +103,7 @@ We will use the [heroku-geo-buildpack](https://github.com/cyberdelia/heroku-geo-
 It is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) that
 vendors main geo/gis libraries like geos, proj and gdal.
   
-Unfortunately, when creating the heroku app on #5, the stack used by Heroku is heroku-16, which in the time of writing this is not compatible with heroku-geo-buildpack. But the cedar-14 stack is compatible.
+Unfortunately, when creating the heroku app on #5, the stack used by default is heroku-16, which in the time of writing this is not compatible with heroku-geo-buildpack. But the cedar-14 stack is compatible.
   
 This means we will have to change our app's stack to cedar-14 using the command below:
   ```
