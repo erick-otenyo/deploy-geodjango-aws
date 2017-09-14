@@ -96,8 +96,9 @@ An installation guide for getting GeoDjango setup on Heroku
     git add runtime.txt
     git commit -m "Added runtime file"
     ```
-8. Now we need to tell Heroku that our application is not the normal django apps, but one that should support geospatial functionalities.
+8. Now we need to tell Heroku that our application is not the normal django app, but one that should support geospatial functionalities. For this we need geospatial libraries.
 
+### Geospatial Libraries Setup
 To have GIS functionalities available for use in our Django app, we need to have Geospatial libraries in our heroku instance.
 
 In this case, what we need is a custom buildpack that will set up the geospatial environment on Heroku.
